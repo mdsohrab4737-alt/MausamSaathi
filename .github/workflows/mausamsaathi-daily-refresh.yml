@@ -13,9 +13,6 @@ concurrency:
 permissions:
   contents: read
 
-env:
-  PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/ms-playwright
-
 jobs:
   daily-refresh:
     runs-on: ubuntu-latest
