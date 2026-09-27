@@ -1,4 +1,4 @@
-name: MausamSaathi Daily Scientific Refresh
+﻿name: MausamSaathi Daily Scientific Refresh
 
 on:
   schedule:
@@ -47,3 +47,4 @@ jobs:
       - name: Run cloud refresh
         run: |
           python backend/cloud_refresh_worker.py
+
