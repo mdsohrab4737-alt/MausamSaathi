@@ -1,0 +1,3266 @@
+{
+  "project": "MAUSAMSAATHI-SIH2026",
+  "purpose": "cloud_refresh_runtime_artifacts",
+  "generated_from": "C:\\MausamSaathiSIH26\\MAUSAMSAATHI_DEMO",
+  "artifact_count": 814,
+  "missing_count": 0,
+  "missing": [],
+  "artifacts": [
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5c_pilot/heavy_rain_panchayat_mean_7d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5c_pilot/heavy_rain_panchayat_mean_7d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/7d_heavy_rain_panchayat_mean_7d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/heavy_rain_panchayat_mean_14d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/heavy_rain_panchayat_mean_14d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/14d_heavy_rain_panchayat_mean_14d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/heavy_rain_panchayat_mean_21d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/heavy_rain_panchayat_mean_21d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/21d_heavy_rain_panchayat_mean_21d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/heavy_rain_panchayat_mean_30d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/heavy_rain_panchayat_mean_30d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/30d_heavy_rain_panchayat_mean_30d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5d_full_7d/heavy_rain_grid_7d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5d_full_7d/heavy_rain_grid_7d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/7d_heavy_rain_grid_7d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/heavy_rain_grid_14d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/heavy_rain_grid_14d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/14d_heavy_rain_grid_14d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/heavy_rain_grid_21d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/heavy_rain_grid_21d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/21d_heavy_rain_grid_21d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/heavy_rain_grid_30d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/heavy_rain_grid_30d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/30d_heavy_rain_grid_30d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5c_pilot/onset_7d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5c_pilot/onset_7d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/7d_onset_7d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/onset_14d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/onset_14d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/14d_onset_14d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/onset_21d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/onset_21d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/21d_onset_21d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/onset_30d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/onset_30d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/30d_onset_30d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5d_full_7d/break_proxy_7d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5d_full_7d/break_proxy_7d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/7d_break_proxy_7d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/break_proxy_14d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/break_proxy_14d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/14d_break_proxy_14d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/break_proxy_21d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/break_proxy_21d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/21d_break_proxy_21d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/break_proxy_30d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/break_proxy_30d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/30d_break_proxy_30d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5d_full_7d/active_7d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5d_full_7d/active_7d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/7d_active_7d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/active_14d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/active_14d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/14d_active_14d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/active_21d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/active_21d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/21d_active_21d_calibrator.joblib"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/active_30d_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/active_30d_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "calibrator",
+      "path": "data_test/processed/models/step6a_probability_calibrators/30d_active_30d_calibrator.joblib"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/climatology/bilaspur_panchayat_daily_climatology_1951_2023.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/climatology/bilaspur_panchayat_monthly_climatology_1951_2023.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/climatology/bilaspur_panchayat_local_active_break_baseline_1951_2000.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/climatology/bilaspur_panchayat_onset_thresholds_1961_2010.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/climatology/climatology_metadata.json"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/geo/bilaspur/bilaspur_gram_panchayat_boundaries.geojson"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/geo/bilaspur/bilaspur_gram_panchayat_boundary_metadata.json"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/geo/bilaspur/bilaspur_village_gp_crosswalk.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/geo/lgd/bilaspur_lgd_block_panchayat_hierarchy_2026.json"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/geo/lgd/bilaspur_village_gram_panchayat_mapping_2026-09-21.csv"
+    },
+    {
+      "category": "static_support",
+      "path": "data_test/processed/current_omi/cpc_blended_olr_20260101_20260923_tropical.nc"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof001.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof002.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof003.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof004.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof005.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof006.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof007.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof008.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof009.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof010.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof011.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof012.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof013.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof014.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof015.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof016.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof017.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof018.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof019.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof020.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof021.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof022.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof023.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof024.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof025.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof026.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof027.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof028.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof029.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof030.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof031.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof032.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof033.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof034.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof035.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof036.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof037.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof038.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof039.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof040.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof041.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof042.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof043.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof044.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof045.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof046.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof047.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof048.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof049.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof050.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof051.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof052.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof053.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof054.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof055.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof056.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof057.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof058.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof059.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof060.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof061.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof062.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof063.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof064.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof065.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof066.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof067.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof068.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof069.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof070.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof071.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof072.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof073.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof074.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof075.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof076.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof077.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof078.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof079.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof080.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof081.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof082.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof083.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof084.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof085.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof086.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof087.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof088.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof089.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof090.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof091.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof092.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof093.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof094.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof095.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof096.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof097.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof098.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof099.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof100.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof101.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof102.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof103.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof104.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof105.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof106.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof107.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof108.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof109.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof110.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof111.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof112.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof113.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof114.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof115.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof116.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof117.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof118.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof119.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof120.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof121.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof122.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof123.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof124.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof125.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof126.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof127.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof128.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof129.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof130.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof131.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof132.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof133.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof134.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof135.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof136.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof137.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof138.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof139.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof140.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof141.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof142.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof143.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof144.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof145.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof146.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof147.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof148.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof149.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof150.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof151.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof152.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof153.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof154.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof155.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof156.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof157.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof158.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof159.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof160.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof161.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof162.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof163.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof164.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof165.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof166.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof167.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof168.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof169.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof170.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof171.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof172.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof173.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof174.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof175.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof176.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof177.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof178.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof179.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof180.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof181.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof182.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof183.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof184.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof185.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof186.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof187.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof188.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof189.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof190.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof191.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof192.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof193.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof194.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof195.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof196.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof197.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof198.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof199.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof200.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof201.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof202.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof203.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof204.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof205.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof206.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof207.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof208.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof209.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof210.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof211.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof212.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof213.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof214.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof215.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof216.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof217.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof218.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof219.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof220.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof221.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof222.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof223.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof224.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof225.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof226.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof227.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof228.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof229.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof230.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof231.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof232.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof233.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof234.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof235.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof236.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof237.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof238.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof239.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof240.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof241.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof242.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof243.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof244.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof245.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof246.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof247.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof248.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof249.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof250.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof251.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof252.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof253.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof254.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof255.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof256.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof257.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof258.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof259.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof260.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof261.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof262.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof263.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof264.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof265.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof266.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof267.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof268.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof269.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof270.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof271.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof272.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof273.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof274.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof275.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof276.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof277.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof278.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof279.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof280.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof281.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof282.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof283.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof284.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof285.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof286.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof287.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof288.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof289.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof290.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof291.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof292.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof293.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof294.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof295.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof296.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof297.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof298.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof299.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof300.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof301.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof302.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof303.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof304.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof305.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof306.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof307.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof308.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof309.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof310.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof311.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof312.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof313.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof314.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof315.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof316.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof317.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof318.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof319.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof320.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof321.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof322.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof323.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof324.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof325.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof326.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof327.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof328.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof329.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof330.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof331.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof332.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof333.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof334.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof335.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof336.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof337.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof338.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof339.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof340.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof341.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof342.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof343.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof344.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof345.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof346.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof347.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof348.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof349.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof350.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof351.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof352.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof353.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof354.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof355.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof356.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof357.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof358.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof359.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof360.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof361.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof362.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof363.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof364.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof365.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof1/eof366.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof001.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof002.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof003.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof004.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof005.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof006.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof007.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof008.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof009.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof010.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof011.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof012.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof013.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof014.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof015.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof016.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof017.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof018.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof019.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof020.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof021.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof022.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof023.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof024.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof025.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof026.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof027.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof028.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof029.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof030.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof031.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof032.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof033.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof034.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof035.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof036.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof037.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof038.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof039.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof040.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof041.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof042.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof043.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof044.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof045.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof046.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof047.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof048.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof049.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof050.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof051.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof052.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof053.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof054.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof055.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof056.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof057.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof058.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof059.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof060.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof061.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof062.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof063.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof064.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof065.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof066.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof067.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof068.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof069.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof070.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof071.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof072.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof073.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof074.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof075.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof076.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof077.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof078.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof079.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof080.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof081.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof082.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof083.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof084.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof085.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof086.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof087.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof088.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof089.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof090.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof091.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof092.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof093.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof094.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof095.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof096.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof097.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof098.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof099.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof100.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof101.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof102.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof103.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof104.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof105.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof106.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof107.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof108.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof109.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof110.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof111.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof112.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof113.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof114.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof115.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof116.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof117.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof118.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof119.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof120.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof121.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof122.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof123.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof124.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof125.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof126.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof127.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof128.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof129.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof130.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof131.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof132.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof133.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof134.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof135.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof136.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof137.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof138.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof139.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof140.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof141.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof142.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof143.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof144.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof145.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof146.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof147.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof148.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof149.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof150.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof151.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof152.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof153.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof154.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof155.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof156.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof157.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof158.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof159.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof160.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof161.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof162.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof163.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof164.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof165.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof166.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof167.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof168.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof169.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof170.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof171.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof172.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof173.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof174.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof175.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof176.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof177.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof178.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof179.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof180.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof181.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof182.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof183.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof184.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof185.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof186.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof187.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof188.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof189.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof190.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof191.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof192.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof193.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof194.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof195.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof196.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof197.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof198.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof199.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof200.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof201.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof202.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof203.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof204.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof205.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof206.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof207.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof208.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof209.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof210.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof211.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof212.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof213.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof214.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof215.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof216.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof217.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof218.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof219.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof220.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof221.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof222.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof223.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof224.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof225.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof226.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof227.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof228.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof229.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof230.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof231.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof232.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof233.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof234.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof235.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof236.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof237.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof238.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof239.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof240.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof241.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof242.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof243.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof244.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof245.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof246.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof247.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof248.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof249.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof250.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof251.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof252.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof253.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof254.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof255.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof256.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof257.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof258.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof259.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof260.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof261.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof262.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof263.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof264.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof265.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof266.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof267.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof268.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof269.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof270.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof271.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof272.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof273.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof274.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof275.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof276.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof277.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof278.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof279.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof280.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof281.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof282.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof283.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof284.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof285.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof286.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof287.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof288.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof289.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof290.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof291.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof292.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof293.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof294.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof295.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof296.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof297.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof298.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof299.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof300.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof301.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof302.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof303.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof304.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof305.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof306.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof307.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof308.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof309.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof310.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof311.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof312.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof313.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof314.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof315.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof316.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof317.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof318.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof319.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof320.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof321.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof322.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof323.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof324.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof325.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof326.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof327.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof328.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof329.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof330.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof331.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof332.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof333.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof334.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof335.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof336.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof337.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof338.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof339.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof340.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof341.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof342.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof343.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof344.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof345.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof346.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof347.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof348.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof349.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof350.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof351.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof352.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof353.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof354.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof355.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof356.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof357.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof358.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof359.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof360.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof361.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof362.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof363.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof364.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof365.txt"
+    },
+    {
+      "category": "omi_eof_basis",
+      "path": "data_test/processed/current_omi/original_eofs/eof2/eof366.txt"
+    },
+    {
+      "category": "refresh_seed",
+      "path": "data_test/processed/bilaspur_panchayat_grid_weights.csv"
+    },
+    {
+      "category": "refresh_seed",
+      "path": "data_test/processed/bilaspur_panchayat_rainfall_2026-08-09_2026-09-23.csv"
+    },
+    {
+      "category": "refresh_seed",
+      "path": "data_test/processed/bilaspur_panchayat_era5t_daily_20260809_20260919.csv"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5d_full_7d/rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5d_full_7d/rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5e_full_14d/rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5e_full_14d/rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5f_full_21d/rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5f_full_21d/rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.metadata.json"
+    },
+    {
+      "category": "model",
+      "path": "data_test/processed/models/step5g_full_30d/rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.json"
+    },
+    {
+      "category": "model_metadata",
+      "path": "data_test/processed/models/step5g_full_30d/rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.metadata.json"
+    }
+  ]
+}

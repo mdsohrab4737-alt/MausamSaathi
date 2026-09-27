@@ -1,0 +1,13 @@
+# MausamSaathi SIH 2026 cloud refresh runtime
+# Versions mirror the verified local backend venv at the Step-32 handoff.
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+pandas==3.0.5
+numpy==2.5.3
+xgboost==3.4.1
+joblib==1.6.0
+mjoindices==1.4.1
+xarray==2026.7.0
+netCDF4==1.7.4
+cdsapi==0.7.7
+playwright==1.63.0

@@ -1,0 +1,112 @@
+{
+  "locations": {
+    "states": [
+      {
+        "name": "Chhattisgarh",
+        "districts": [
+          {
+            "name": "Bilaspur",
+            "blocks": [
+              {
+                "name": "Kota",
+                "panchayats": ["Kendri", "Patharra", "Ratanpur"]
+              },
+              {
+                "name": "Takhatpur",
+                "panchayats": ["Khudiyadih", "Lormi Road", "Sakri"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhya Pradesh",
+        "districts": [
+          {
+            "name": "Indore",
+            "blocks": [
+              {
+                "name": "Depalpur",
+                "panchayats": ["Gautampura", "Khatambha", "Pithampur"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "forecasts": {
+    "chhattisgarh-bilaspur-kota-kendri": {
+      "state": "Chhattisgarh",
+      "location": {"state": "Chhattisgarh", "district": "Bilaspur", "block": "Kota", "panchayat": "Kendri"},
+      "horizons": {
+        "7":  {"onset_probability": 76, "break_probability": 22, "heavy_rain_probability": 48, "rainfall_anomaly": 8, "confidence": "Moderate"},
+        "14": {"onset_probability": 82, "break_probability": 18, "heavy_rain_probability": 64, "rainfall_anomaly": 18, "confidence": "High"},
+        "21": {"onset_probability": 79, "break_probability": 24, "heavy_rain_probability": 57, "rainfall_anomaly": 12, "confidence": "Moderate"},
+        "30": {"onset_probability": 71, "break_probability": 29, "heavy_rain_probability": 51, "rainfall_anomaly": 6, "confidence": "Moderate"}
+      }
+    },
+    "chhattisgarh-bilaspur-kota-patharra": {
+      "state": "Chhattisgarh",
+      "location": {"state": "Chhattisgarh", "district": "Bilaspur", "block": "Kota", "panchayat": "Patharra"},
+      "horizons": {
+        "7":  {"onset_probability": 68, "break_probability": 26, "heavy_rain_probability": 42, "rainfall_anomaly": 4, "confidence": "Moderate"},
+        "14": {"onset_probability": 74, "break_probability": 23, "heavy_rain_probability": 58, "rainfall_anomaly": 10, "confidence": "Moderate"},
+        "21": {"onset_probability": 72, "break_probability": 27, "heavy_rain_probability": 62, "rainfall_anomaly": 14, "confidence": "Moderate"},
+        "30": {"onset_probability": 65, "break_probability": 31, "heavy_rain_probability": 55, "rainfall_anomaly": 9, "confidence": "Low"}
+      }
+    },
+    "chhattisgarh-bilaspur-takhatpur-khudiyadih": {
+      "state": "Chhattisgarh",
+      "location": {"state": "Chhattisgarh", "district": "Bilaspur", "block": "Takhatpur", "panchayat": "Khudiyadih"},
+      "horizons": {
+        "7":  {"onset_probability": 61, "break_probability": 29, "heavy_rain_probability": 39, "rainfall_anomaly": 1, "confidence": "Moderate"},
+        "14": {"onset_probability": 69, "break_probability": 25, "heavy_rain_probability": 47, "rainfall_anomaly": 5, "confidence": "Moderate"},
+        "21": {"onset_probability": 67, "break_probability": 28, "heavy_rain_probability": 53, "rainfall_anomaly": 8, "confidence": "Moderate"},
+        "30": {"onset_probability": 60, "break_probability": 33, "heavy_rain_probability": 49, "rainfall_anomaly": 3, "confidence": "Low"}
+      }
+    },
+    "madhya-pradesh-indore-depalpur-gautampura": {
+      "state": "Madhya Pradesh",
+      "location": {"state": "Madhya Pradesh", "district": "Indore", "block": "Depalpur", "panchayat": "Gautampura"},
+      "horizons": {
+        "7":  {"onset_probability": 72, "break_probability": 19, "heavy_rain_probability": 44, "rainfall_anomaly": 7, "confidence": "Moderate"},
+        "14": {"onset_probability": 80, "break_probability": 17, "heavy_rain_probability": 61, "rainfall_anomaly": 15, "confidence": "High"},
+        "21": {"onset_probability": 77, "break_probability": 22, "heavy_rain_probability": 59, "rainfall_anomaly": 11, "confidence": "Moderate"},
+        "30": {"onset_probability": 70, "break_probability": 28, "heavy_rain_probability": 53, "rainfall_anomaly": 7, "confidence": "Moderate"}
+      }
+    }
+  },
+  "map_areas": {
+    "Chhattisgarh": [
+      {"id":"a1","label":"Kota-North","risk":82,"level":"Very High","points":"30,40 120,20 150,95 85,120 25,90"},
+      {"id":"a2","label":"Kota-Central","risk":64,"level":"High","points":"155,25 255,35 270,110 170,120 150,95"},
+      {"id":"a3","label":"Takhatpur","risk":48,"level":"Moderate","points":"25,95 85,125 70,205 10,185"},
+      {"id":"a4","label":"Bilaspur-East","risk":22,"level":"Low","points":"170,125 270,115 290,200 185,205"},
+      {"id":"a5","label":"Bilaspur-South","risk":71,"level":"High","points":"85,125 170,120 185,205 72,205"}
+    ],
+    "Madhya Pradesh": [
+      {"id":"b1","label":"Depalpur-NW","risk":34,"level":"Moderate","points":"30,45 120,20 145,95 70,120"},
+      {"id":"b2","label":"Depalpur-SE","risk":68,"level":"High","points":"145,95 240,45 275,120 185,170"},
+      {"id":"b3","label":"Indore-Rural","risk":19,"level":"Low","points":"70,120 185,170 160,240 40,210"},
+      {"id":"b4","label":"Indore-East","risk":79,"level":"Very High","points":"185,170 275,120 305,220 160,240"}
+    ]
+  },
+  "advisories": {
+    "rice": {
+      "title": "Rice Advisory",
+      "title_hi": "धान की सलाह",
+      "high_rain_actions": ["Prepare field drainage", "Avoid unnecessary irrigation", "Keep seedbed ready", "Monitor rainfall before sowing"],
+      "low_onset_actions": ["Delay sowing until onset confidence improves", "Keep seed and inputs ready", "Plan a backup irrigation source", "Monitor the next forecast update"],
+      "normal_actions": ["Prepare seedbed", "Plan sowing with forecast window", "Monitor local rainfall"],
+      "actions_hi": ["खेत में जल निकासी की तैयारी रखें", "अनावश्यक सिंचाई से बचें", "नर्सरी/बीज तैयार रखें", "बुवाई से पहले वर्षा अपडेट देखें"]
+    },
+    "maize": {
+      "title": "Maize Advisory",
+      "title_hi": "मक्का सलाह",
+      "high_rain_actions": ["Ensure field drainage", "Protect seed and fertilizer stock", "Avoid waterlogging", "Watch heavy-rain alerts"],
+      "normal_actions": ["Prepare field", "Plan sowing window", "Monitor local rainfall"],
+      "actions_hi": ["खेत में जल निकासी रखें", "बीज व उर्वरक सुरक्षित रखें", "जलभराव से बचें", "भारी वर्षा अलर्ट देखें"]
+    }
+  }
+}
