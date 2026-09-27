@@ -40,6 +40,10 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r backend/requirements-cloud-refresh.txt
 
+      - name: Configure Playwright browser path
+        shell: bash
+        run: echo "PLAYWRIGHT_BROWSERS_PATH=$RUNNER_TEMP/ms-playwright" >> "$GITHUB_ENV"
+
       - name: Install Chromium and Linux browser dependencies
         run: |
           python -m playwright install --with-deps chromium
