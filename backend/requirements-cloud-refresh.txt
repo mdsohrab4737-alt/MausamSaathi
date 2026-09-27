@@ -11,3 +11,4 @@ xarray==2026.7.0
 netCDF4==1.7.4
 cdsapi==0.7.7
 playwright==1.63.0
+scikit-learn
