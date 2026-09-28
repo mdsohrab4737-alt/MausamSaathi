@@ -1,0 +1,16 @@
+﻿{
+  "rainfall_1d": 18.5,
+  "rainfall_3d": 42.0,
+  "rainfall_7d": 78.0,
+  "rainy_days_7d": 4,
+  "temperature_c": 27.4,
+  "humidity_pct": 78.0,
+  "wind_ms": 3.8,
+  "pressure_hpa": 1004.5,
+  "enso_index": 0.2,
+  "iod_index": -0.1,
+  "mjo_index": 0.4,
+  "rainfall_anomaly_pct": 12.0,
+  "day_sin": 0.35,
+  "day_cos": 0.94
+}

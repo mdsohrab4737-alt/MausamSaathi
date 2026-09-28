@@ -1,0 +1,65 @@
+{
+  "purpose": "SIH 26086 ML proof-of-concept",
+  "data": {
+    "source": "synthetic demonstration data",
+    "rows": 3287,
+    "date_start": "2017-01-01",
+    "date_end": "2025-12-31",
+    "split": "70% train / 15% validation / 15% test, chronological"
+  },
+  "features": [
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "rainy_days_7d",
+    "temperature_c",
+    "humidity_pct",
+    "wind_ms",
+    "pressure_hpa",
+    "enso_index",
+    "iod_index",
+    "mjo_index",
+    "rainfall_anomaly_pct",
+    "day_sin",
+    "day_cos"
+  ],
+  "targets": [
+    "onset_label",
+    "break_label",
+    "heavy_rain_label"
+  ],
+  "models": {
+    "classifier": "XGBClassifier",
+    "calibration": "IsotonicRegression fit on validation predictions"
+  },
+  "metrics": {
+    "onset": {
+      "brier": 0.0242,
+      "log_loss": 0.1687,
+      "roc_auc": 0.9439,
+      "pr_auc": 0.9196,
+      "f1": 0.9274,
+      "positive_rate_test": 0.1923,
+      "test_samples": 494
+    },
+    "break": {
+      "brier": 0.057,
+      "log_loss": 0.2423,
+      "roc_auc": 0.9429,
+      "pr_auc": 0.9142,
+      "f1": 0.9378,
+      "positive_rate_test": 0.4838,
+      "test_samples": 494
+    },
+    "heavy_rain": {
+      "brier": 0.0314,
+      "log_loss": 0.1824,
+      "roc_auc": 0.9232,
+      "pr_auc": 0.8707,
+      "f1": 0.9,
+      "positive_rate_test": 0.1761,
+      "test_samples": 494
+    }
+  },
+  "warning": "Replace synthetic data and proxy labels with official observed data and documented meteorological event criteria for production."
+}
