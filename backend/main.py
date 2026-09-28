@@ -426,7 +426,11 @@ def _ml_forecast_for_location(location, horizon: int):
             ),
             "rainfall_anomaly": anomaly_mm,
             "rainfall_anomaly_mm": anomaly_mm,
-            "rainfall_anomaly_source": anomaly_source,
+            "rainfall_anomaly_source": (
+            "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv"
+            if anomaly_source
+            else None
+        ),
             "confidence": "Current observation-based ML inference",
             "issue_date": issue_date,
             "refresh_status": state.get("status", "published"),
@@ -1185,7 +1189,11 @@ def advisory(
         "reference_date": reference_date.isoformat(),
         "rule_keys": built["rule_keys"],
         "forecast_source": prediction_source,
-        "rainfall_anomaly_source": anomaly_source,
+        "rainfall_anomaly_source": (
+            "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv"
+            if anomaly_source
+            else None
+        ),
         "advisory": hi if lang == "hi" else en,
     }
 
@@ -1220,8 +1228,8 @@ def ml_status():
             "last_successful_issue_date"
         ),
         "data_mode": "current_live_published",
-        "current_prediction_file": str(SPATIAL_PREDICTIONS_PATH),
-        "current_anomaly_file": str(RAINFALL_ANOMALY_PATH),
+        "current_prediction_file": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
+        "current_anomaly_file": "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv",
     }
 
 

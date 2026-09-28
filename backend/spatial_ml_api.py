@@ -536,8 +536,8 @@ def ml_spatial_forecast(
                     }
                 ],
                 "rainfall_anomaly_mm": anomaly_map.get(code),
-                "rainfall_anomaly_source": str(RAINFALL_ANOMALY_PATH),
-                "source": str(PREDICTIONS_PATH),
+                "rainfall_anomaly_source": "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv",
+                "source": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
             }
 
         # When a local body is requested without an indicator, return all five
@@ -567,8 +567,8 @@ def ml_spatial_forecast(
             "local_body_count": 1,
             "indicators": selected_indicators,
             "rainfall_anomaly_mm": anomaly_map.get(code),
-            "rainfall_anomaly_source": str(RAINFALL_ANOMALY_PATH),
-            "source": str(PREDICTIONS_PATH),
+            "rainfall_anomaly_source": "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv",
+            "source": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
         }
 
     if indicator is not None:
@@ -593,7 +593,7 @@ def ml_spatial_forecast(
             "indicator": indicator,
             "local_body_count": len(result_rows),
             "predictions": result_rows,
-            "source": str(PREDICTIONS_PATH),
+            "source": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
         }
 
     indicators: dict[str, list[dict[str, object]]] = {}
@@ -623,7 +623,7 @@ def ml_spatial_forecast(
         "indicator": None,
         "local_body_count": int(len(df)),
         "indicators": indicators,
-        "source": str(PREDICTIONS_PATH),
+        "source": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
     }
 
 
@@ -679,11 +679,11 @@ def ml_spatial_forecast_meta():
         "indicators": list(INDICATORS),
         "probability_types": list(PROBABILITY_TYPES),
         "local_body_count": EXPECTED_BODIES,
-        "prediction_source": str(PREDICTIONS_PATH),
-        "feature_source": str(FEATURE_SNAPSHOT_PATH),
-        "rainfall_anomaly_source": str(RAINFALL_ANOMALY_PATH),
+        "prediction_source": "data_test/processed/current_climate_2026/mausam_current_ml_predictions.csv",
+        "feature_source": "data_test/processed/current_climate_2026/mausam_current_ml_features.csv",
+        "rainfall_anomaly_source": "data_test/processed/current_climate_2026/mausam_current_rainfall_anomaly.csv",
         "rainfall_anomaly_horizons": list(HORIZONS),
-        "geojson_source": str(SPATIAL_GEOJSON_PATH),
+        "geojson_source": "data_test/processed/current_spatial_2026/mausam_current_spatial_current.geojson",
     }
 
 
@@ -777,7 +777,7 @@ def ml_spatial_geojson(
             "indicator": indicator,
             "probability_type": probability_type,
             "local_body_count": len(features),
-            "source": str(SPATIAL_GEOJSON_PATH),
+            "source": "data_test/processed/current_spatial_2026/mausam_current_spatial_current.geojson",
         },
     }
 
@@ -801,8 +801,8 @@ def ml_spatial_geojson_meta():
         "horizons": list(HORIZONS),
         "indicators": list(INDICATORS),
         "probability_types": list(PROBABILITY_TYPES),
-        "geojson": str(SPATIAL_GEOJSON_PATH),
-        "layer_directory": str(SPATIAL_LAYER_DIR),
+        "geojson": "data_test/processed/current_spatial_2026/mausam_current_spatial_current.geojson",
+        "layer_directory": "data_test/processed/current_spatial_2026/layers_current",
         "layer_files": layer_files,
         "layer_count": len(layer_files),
     }
