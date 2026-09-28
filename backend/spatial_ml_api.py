@@ -1,6 +1,12 @@
 from __future__ import annotations
 
 import json
+import io
+
+try:
+    from .cloud_published_runtime import cloud_runtime_configured, ensure_current_runtime
+except ImportError:
+    from cloud_published_runtime import cloud_runtime_configured, ensure_current_runtime
 from pathlib import Path
 from typing import Any, Literal
 
@@ -75,6 +81,18 @@ router = APIRouter(tags=["spatial-ml"])
 
 
 def _load_predictions() -> pd.DataFrame:
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(
+                ROOT,
+                ROOT / "data_test" / "processed" / "current_climate_2026",
+            )
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     global ISSUE_DATE
     if not PREDICTIONS_PATH.exists():
         raise HTTPException(
@@ -176,6 +194,18 @@ def _load_predictions() -> pd.DataFrame:
 
 
 def _load_features() -> pd.DataFrame:
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(
+                ROOT,
+                ROOT / "data_test" / "processed" / "current_climate_2026",
+            )
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     if not FEATURE_SNAPSHOT_PATH.exists():
         return pd.DataFrame(columns=["local_body_code", "rainfall_anomaly_mm"])
 
@@ -196,6 +226,18 @@ def _load_features() -> pd.DataFrame:
 
 
 def _load_spatial_geojson() -> dict[str, Any]:
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(
+                ROOT,
+                ROOT / "data_test" / "processed" / "current_climate_2026",
+            )
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     if not SPATIAL_GEOJSON_PATH.exists():
         raise HTTPException(
             status_code=503,
@@ -260,6 +302,18 @@ def _probability_column(
 
 
 def _load_rainfall_anomaly_predictions() -> pd.DataFrame:
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(
+                ROOT,
+                ROOT / "data_test" / "processed" / "current_climate_2026",
+            )
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     if not RAINFALL_ANOMALY_PATH.exists():
         raise HTTPException(
             status_code=503,
@@ -575,6 +629,18 @@ def ml_spatial_forecast(
 
 @router.get("/current-state")
 def current_state():
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(
+                ROOT,
+                ROOT / "data_test" / "processed" / "current_climate_2026",
+            )
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     state_path = (
         ROOT
         / "data_test"
@@ -718,6 +784,8 @@ def ml_spatial_geojson(
 
 @router.get("/ml-spatial-geojson/meta")
 def ml_spatial_geojson_meta():
+    _load_predictions()
+
     layer_files = [
         f"{horizon}d_{indicator}_{horizon}d.geojson"
         for horizon in HORIZONS

@@ -802,6 +802,7 @@ def should_include_runtime(path: Path, work_dir: Path) -> bool:
 
     current_climate = Path("data_test/processed/current_climate_2026")
     current_omi = Path("data_test/processed/current_omi")
+    current_spatial = Path("data_test/processed/current_spatial_2026")
     geo_bilaspur = Path("data_test/geo/bilaspur")
     frontend_maps = Path("frontend/public/mausamspatial")
 
@@ -811,6 +812,10 @@ def should_include_runtime(path: Path, work_dir: Path) -> bool:
         return True
     if rel.parts[: len(current_omi.parts)] == current_omi.parts:
         return True
+    if rel.parts[: len(current_spatial.parts)] == current_spatial.parts:
+        return path.suffix.lower() in {".geojson", ".json"} and any(
+            token in path.name.lower() for token in ("current", "spatial", "audit")
+        )
     if rel.parts[: len(frontend_maps.parts)] == frontend_maps.parts:
         return True
     if rel.parts[: len(geo_bilaspur.parts)] == geo_bilaspur.parts:
@@ -825,6 +830,7 @@ def collect_runtime_files(work_dir: Path) -> list[Path]:
     for base in [
         work_dir / "data_test" / "processed" / "current_climate_2026",
         work_dir / "data_test" / "processed" / "current_omi",
+        work_dir / "data_test" / "processed" / "current_spatial_2026",
         work_dir
         / "data_test"
         / "processed"

@@ -6,6 +6,19 @@ import json
 import re
 
 try:
+    from .cloud_published_runtime import (
+        cloud_runtime_configured,
+        ensure_current_runtime,
+        published_state,
+    )
+except ImportError:
+    from cloud_published_runtime import (
+        cloud_runtime_configured,
+        ensure_current_runtime,
+        published_state,
+    )
+
+try:
     from .ml_inference import run_demo_forecast
 except ImportError:
     from ml_inference import run_demo_forecast
@@ -246,6 +259,15 @@ LOCATIONS_RESPONSE = _build_locations_response()
 
 def _load_current_live_tables():
     'Load the currently published prediction/anomaly state on each request.'
+    if cloud_runtime_configured(ROOT):
+        try:
+            ensure_current_runtime(ROOT, CURRENT_DIR)
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud runtime synchronization failed: {exc}",
+            ) from exc
+
     if not SPATIAL_PREDICTIONS_PATH.exists():
         raise HTTPException(
             status_code=503,
@@ -457,6 +479,20 @@ def _resolve_forecast(location_id: str, horizon: int):
 
 
 
+def _load_current_state_manifest():
+    if cloud_runtime_configured(ROOT):
+        try:
+            return published_state(ROOT)
+        except Exception as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=f"Published cloud current state is unavailable: {exc}",
+            ) from exc
+
+    current = _load_current_state_manifest()
+    return current
+
+
 app = FastAPI(
     title="MausamSaathi Prototype API",
     version="0.2.0",
@@ -487,14 +523,7 @@ app.include_router(authenticated_persistence_router)
 
 @app.get("/health")
 def health():
-    current = {}
-    if CURRENT_STATE_PATH.exists():
-        try:
-            current = json.loads(
-                CURRENT_STATE_PATH.read_text(encoding="utf-8")
-            )
-        except Exception:
-            current = {}
+    current = _load_current_state_manifest()
 
     spatial_path = (
         ROOT
@@ -1055,7 +1084,7 @@ def advisory(
     horizon: int = 14,
     lang: str = "en",
 ):
-    """Return season-aware advisory using the same current calibrated ML values shown by the live spatial UI."""
+    # Uses the exact current calibrated values already resolved by /forecast.
     if horizon not in HORIZONS:
         raise HTTPException(
             status_code=400,
@@ -1070,110 +1099,31 @@ def advisory(
         DATA["advisories"]["rice"],
     )
 
-    # ------------------------------------------------------------------
-    # Step 11 alignment fix:
-    # The live spatial API serves the calibrated 2026 ML predictions.
-    # Advisory must use those same horizon-specific calibrated fields,
-    # instead of falling back to the legacy/raw /forecast values.
-    # ------------------------------------------------------------------
-    current_dir = ROOT / "data_test" / "processed" / "current_climate_2026"
-    prediction_candidates = [
-        current_dir / "mausam_current_ml_predictions.csv"
-    ]
-    anomaly_candidates = [
-        current_dir / "mausam_current_rainfall_anomaly.csv"
-    ]
+    result = resolved["forecast"]
+    p_onset = float(result.get("onset_probability", 0))
+    p_break = float(result.get("break_probability", 0))
+    p_heavy = float(result.get("heavy_rain_probability", 0))
 
-    prediction_row = None
-    prediction_source = "legacy_forecast"
-
-    if prediction_candidates:
-        latest_prediction = prediction_candidates[-1]
+    anomaly_mm = result.get("rainfall_anomaly_mm")
+    if anomaly_mm not in (None, ""):
         try:
-            with latest_prediction.open("r", encoding="utf-8-sig", newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    if str(row.get("local_body_code") or "").strip() == str(
-                        resolved["location"]["local_body_code"]
-                    ).strip():
-                        prediction_row = row
-                        break
-            if prediction_row is not None:
-                prediction_source = "current_live_ml_calibrated"
-        except OSError:
-            prediction_row = None
-
-    if prediction_row is not None:
-        def _prediction_percent(indicator: str) -> float:
-            field = f"{indicator}_{horizon}d_calibrated"
-            raw = prediction_row.get(field)
-            if raw in (None, ""):
-                raise HTTPException(
-                    status_code=503,
-                    detail=f"Current live ML field missing: {field}",
-                )
-            try:
-                value = float(raw)
-            except (TypeError, ValueError) as exc:
-                raise HTTPException(
-                    status_code=500,
-                    detail=f"Invalid current live ML value in {field}: {raw}",
-                ) from exc
-            if not 0.0 <= value <= 1.0:
-                raise HTTPException(
-                    status_code=500,
-                    detail=f"Current live ML value outside [0,1] in {field}: {value}",
-                )
-            return round(value * 100.0, 1)
-
-        p_onset = _prediction_percent("onset")
-        p_break = _prediction_percent("break_proxy")
-        p_heavy = _prediction_percent("heavy_rain_panchayat_mean")
-        reference_date_text = str(prediction_row.get("date") or "").strip()
+            anomaly_mm = float(anomaly_mm)
+        except (TypeError, ValueError) as exc:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Invalid rainfall anomaly in current live forecast: {anomaly_mm}",
+            ) from exc
     else:
-        result = resolved["forecast"]
-        p_onset = float(result.get("onset_probability", 0))
-        p_break = float(result.get("break_probability", 0))
-        p_heavy = float(result.get("heavy_rain_probability", 0))
-        reference_date_text = ""
+        anomaly_mm = None
 
-    # Use the dedicated horizon-specific rainfall anomaly output for the
-    # advisory, matching the live spatial API/UI.
-    anomaly_mm = None
-    anomaly_source = None
-    if anomaly_candidates:
-        latest_anomaly = anomaly_candidates[-1]
-        try:
-            with latest_anomaly.open("r", encoding="utf-8-sig", newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    if str(row.get("local_body_code") or "").strip() == str(
-                        resolved["location"]["local_body_code"]
-                    ).strip():
-                        field = f"rainfall_anomaly_{horizon}d_mm"
-                        raw = row.get(field)
-                        if raw not in (None, ""):
-                            try:
-                                anomaly_mm = float(raw)
-                            except (TypeError, ValueError) as exc:
-                                raise HTTPException(
-                                    status_code=500,
-                                    detail=f"Invalid rainfall anomaly in {field}: {raw}",
-                                ) from exc
-                            anomaly_source = str(latest_anomaly)
-                        break
-        except OSError:
-            pass
+    prediction_source = (
+        "current_live_ml_calibrated"
+        if not resolved.get("prototype", False)
+        else "legacy_forecast"
+    )
+    anomaly_source = result.get("rainfall_anomaly_source")
 
-    if anomaly_mm is None:
-        fallback_anomaly = resolved["forecast"].get("rainfall_anomaly_mm")
-        if fallback_anomaly not in (None, ""):
-            try:
-                anomaly_mm = float(fallback_anomaly)
-                anomaly_source = "forecast_fallback"
-            except (TypeError, ValueError):
-                anomaly_mm = None
-
+    reference_date_text = str(result.get("issue_date") or "").strip()
     if reference_date_text:
         try:
             from datetime import date
@@ -1191,7 +1141,6 @@ def advisory(
         p_heavy,
         anomaly_mm,
         reference_date,
-        horizon,
     )
 
     stage = built["stage_label"]
@@ -1231,7 +1180,6 @@ def advisory(
         "crop": crop,
         "language": lang,
         "monsoon_stage": built["stage_key"],
-        "horizon_band": built["horizon_band"],
         "monsoon_stage_label": stage,
         "reference_date": reference_date.isoformat(),
         "rule_keys": built["rule_keys"],
@@ -1247,14 +1195,7 @@ def advisory(
 
 @app.get("/ml/status")
 def ml_status():
-    current = {}
-    if CURRENT_STATE_PATH.exists():
-        try:
-            current = json.loads(
-                CURRENT_STATE_PATH.read_text(encoding="utf-8")
-            )
-        except Exception:
-            current = {}
+    current = _load_current_state_manifest()
 
     return {
         "status": (
