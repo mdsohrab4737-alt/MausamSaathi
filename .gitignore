@@ -19,3 +19,10 @@ step19_v4_temp/
 step19_robust_temp/
 step19_safe_temp/
 findstr
+/archive/
+**/*_before_*.py
+**/*_before_*.jsx
+**/*_before_*.css
+**/*backup*.jsx
+**/*backup*.css
+**/*.log
