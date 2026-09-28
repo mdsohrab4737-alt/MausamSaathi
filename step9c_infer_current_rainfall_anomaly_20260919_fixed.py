@@ -10,34 +10,34 @@ ROOT = Path(__file__).resolve().parent
 
 # Daily refresh uses stable "current" artifacts. The issue date is read from
 # the feature snapshot itself, so this module is reusable for future dates.
-SNAPSHOT = ROOT / r"data_test\processed\current_climate_2026\mausam_current_ml_features.csv"
-OUT_DIR = ROOT / r"data_test\processed\current_climate_2026"
+SNAPSHOT = ROOT / r"data_test/processed\current_climate_2026\mausam_current_ml_features.csv"
+OUT_DIR = ROOT / r"data_test/processed\current_climate_2026"
 OUTPUT_CSV = OUT_DIR / "mausam_current_rainfall_anomaly.csv"
 AUDIT_JSON = OUT_DIR / "mausam_current_rainfall_anomaly_audit.json"
 
 
 MODELS = {
     7: {
-        "meta": ROOT / r"data_test\processed\models\step5d_full_7d\rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
-        "model": ROOT / r"data_test\processed\models\step5d_full_7d\rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.json",
+        "meta": ROOT / r"data_test/processed\models\step5d_full_7d\rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
+        "model": ROOT / r"data_test/processed\models\step5d_full_7d\rainfall_7d_anomaly_total_xgboost_time_split_1979_2015.json",
         "target": "future_rainfall_7d_anomaly_mm",
         "output": "rainfall_anomaly_7d_mm",
     },
     14: {
-        "meta": ROOT / r"data_test\processed\models\step5e_full_14d\rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
-        "model": ROOT / r"data_test\processed\models\step5e_full_14d\rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.json",
+        "meta": ROOT / r"data_test/processed\models\step5e_full_14d\rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
+        "model": ROOT / r"data_test/processed\models\step5e_full_14d\rainfall_14d_anomaly_total_xgboost_time_split_1979_2015.json",
         "target": "future_rainfall_14d_anomaly_mm",
         "output": "rainfall_anomaly_14d_mm",
     },
     21: {
-        "meta": ROOT / r"data_test\processed\models\step5f_full_21d\rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
-        "model": ROOT / r"data_test\processed\models\step5f_full_21d\rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.json",
+        "meta": ROOT / r"data_test/processed\models\step5f_full_21d\rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
+        "model": ROOT / r"data_test/processed\models\step5f_full_21d\rainfall_21d_anomaly_total_xgboost_time_split_1979_2015.json",
         "target": "future_rainfall_21d_anomaly_mm",
         "output": "rainfall_anomaly_21d_mm",
     },
     30: {
-        "meta": ROOT / r"data_test\processed\models\step5g_full_30d\rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
-        "model": ROOT / r"data_test\processed\models\step5g_full_30d\rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.json",
+        "meta": ROOT / r"data_test/processed\models\step5g_full_30d\rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.metadata.json",
+        "model": ROOT / r"data_test/processed\models\step5g_full_30d\rainfall_30d_anomaly_total_xgboost_time_split_1979_2015.json",
         "target": "future_rainfall_30d_anomaly_mm",
         "output": "rainfall_anomaly_30d_mm",
     },
