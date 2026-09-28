@@ -1141,6 +1141,7 @@ def advisory(
         p_heavy,
         anomaly_mm,
         reference_date,
+        horizon,
     )
 
     stage = built["stage_label"]
