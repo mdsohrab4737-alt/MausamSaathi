@@ -130,10 +130,6 @@ def main() -> None:
         cfg = MODELS[horizon]
 
         if not cfg["meta"].exists():
-            # CLOUD LINUX PATH NORMALIZATION
-            for _k, _v in list(cfg.items()):
-                if isinstance(_v, (str, Path)) and data_test in str(_v):
-                    cfg[_k] = Path(str(_v).replace(chr(92), /))
             fail(f"{horizon}D metadata not found: {cfg['meta']}")
         if not cfg["model"].exists():
             fail(f"{horizon}D model not found: {cfg['model']}")
